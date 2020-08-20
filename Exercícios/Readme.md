@@ -104,7 +104,43 @@ Escreva um programa que receba um número inteiro na entrada, calcule e imprima 
 Exemplo:
 
 Digite um número inteiro: 123
+
 6
+
+# Exercício 11 (Máximos)
+
+Escreva a função maximo que recebe 2 números inteiros como parâmetro e devolve o maior deles.
+
+# Exercício 12 (Maior Primo)
+
+Escreva a função maior_primo que recebe um número inteiro maior ou igual a 2 como parâmetro e devolve o maior número primo menor ou igual ao número passado à função
+
+# Exercício 13 ( Vogais vs Consoantes)
+
+Escreva a função maior_primo que recebe um número inteiro maior ou igual a 2 como parâmetro e devolve o maior número primo menor ou igual ao número passado à função
+
+
+# Exercício 14 
+
+
+
+
+
+# Adicional 1 (FizzBuzz)
+
+Escreva a função fizzbuzz que recebe como parâmetro um número inteiro e devolve
+
+'Fizz' se o número for divisível por 3 e não for divisível por 5;
+
+'Buzz' se o número for divisível por 5 e não for divisível por 3;
+
+'FizzBuzz' se o número for divisível por 3 e por 5;
+
+Caso o número não seja divisível 3 e também não seja divisível por 5, ela deve devolver o número recebido como parâmetro.
+
+# Adicional 2 
+
+Reescreva a função 'maximo' do outro exercício, que devolve o maior valor dentre dois inteiros recebidos, para que ela passe a receber 3 valores inteiros como parâmetros e devolva o maior dentre eles.
 
 
 
