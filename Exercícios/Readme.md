@@ -122,6 +122,22 @@ Escreva a função maior_primo que recebe um número inteiro maior ou igual a 2 
 
 # Exercício 14 
 
+Escreva um programa que recebe como entradas (utilize a função input) dois números inteiros correspondentes à largura e à altura de um retângulo, respectivamente. O programa deve imprimir uma cadeia de caracteres que represente o retângulo informado com caracteres '#' na saída.
+
+#Exercício 15
+
+Refaça o exercício 1 imprimindo os retângulos sem preenchimento, de forma que os caracteres que não estiverem na borda do retângulo sejam espaços.
+
+# Exercício 16 (Removendo Repetidos)
+
+Escreva a função remove_repetidos que recebe como parâmetro uma lista com números inteiros, verifica se tal lista possui elementos repetidos e os remove. A função deve devolver uma lista correspondente à primeira lista, sem elementos repetidos. A lista devolvida deve estar ordenada.
+
+Dica: Você pode usar lista.sort() ou sorted(lista). Qual a diferença?
+
+# Exercício 17 (Soma da Lista)
+
+Escreva a função soma_elementos que recebe como parâmetro uma lista com números inteiros e devolve um número inteiro correspondente à soma dos elementos da lista recebida.
+
 
 
 
@@ -141,6 +157,36 @@ Caso o número não seja divisível 3 e também não seja divisível por 5, ela 
 # Adicional 2 
 
 Reescreva a função 'maximo' do outro exercício, que devolve o maior valor dentre dois inteiros recebidos, para que ela passe a receber 3 valores inteiros como parâmetros e devolva o maior dentre eles.
+
+# Adicional 3 (Todos Primos)
+
+Escreva a função n_primos que recebe como argumento um número inteiro maior ou igual a 2 como parâmetro e devolve a quantidade de números primos que existem entre 2 e n (incluindo 2 e, se for o caso, n).
+
+# Adicional 4 (Soma Hipotenusa)
+
+Dizemos que um número é uma hipotenusa de um triângulo inteiro se existe um triângulo retângulo com lados inteiros cuja hipotenusa é igual a esse número. Em outras palavras, nn é uma hipotenusa se existem números inteiros ii e jj tais que:
+
+n^2 = i^2 + j^2n 
+2
+ =i 
+2
+ +j 
+2
+ 
+
+Escreva uma função soma_hipotenusas que receba como parâmetro um número inteiro positivo nn e devolva a soma de todos os inteiros entre 1 e nn que são comprimento da hipotenusa de algum triângulo retângulo com catetos inteiros.
+
+DIca1: um mesmo número pode ser hipotenusa de vários triângulos, mas deve ser somado apenas uma vez. Uma boa solução para este exercício é fazer um laço de 1 até nn testando se o número é hipotenusa de algum triângulo e somando em caso afirmativo. Uma solução que dificilmente vai dar certo é fazer um laço construindo triângulos e somando as hipotenusas inteiras encontradas.
+
+Dica2: primeiro faça uma função é_hipotenusa que diz se um número inteiro é o comprimento da hipotenusa de um triângulo com lados de comprimento inteiro ou não.
+
+# Adicional 5 (Maior Element Lista)
+
+Escreva a função maior_elemento que recebe como parâmetro uma lista com números inteirose devolve um número inteiro correspondente ao maior valor presente na lista recebida.
+
+# Adicional 6 (Invertendo Sequência)
+
+Como pedido na primeira video-aula desta semana, escreva um programa que recebe uma sequência de números inteiros e imprima todos os valores em ordem inversa. A sequência sempre termina pelo número 0. Note que 0 (ZERO) não deve fazer parte da sequência.
 
 
 
