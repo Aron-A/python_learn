@@ -22,23 +22,23 @@ Faça um programa em Python que receba quatro notas, calcule e imprima a média 
 
 Exemplo:
 
-Entrada de Dados:
-Digite a primeira nota: 4
+    Entrada de Dados:
+    Digite a primeira nota: 4
 
-Digite a segunda nota: 5
+    Digite a segunda nota: 5
 
-Digite a terceira nota: 6
+    Digite a terceira nota: 6
 
-Digite a quarta nota: 7
+    Digite a quarta nota: 7
 
-Saída de Dados:
-A média aritmética é 5.5
+    Saída de Dados:
+    A média aritmética é 5.5
 
 # Exercício 03  (Par ou Impar)
 
 Receba um número inteiro na entrada e imprima
 
-par
+**par**
 
 quando o número for par ou
 
