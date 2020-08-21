@@ -42,7 +42,7 @@ Receba um número inteiro na entrada e imprima
 
 quando o número for par ou
 
-ímpar
+**ímpar**
 
 quando o número for ímpar.
 
@@ -50,7 +50,7 @@ quando o número for ímpar.
 
 Receba um número inteiro na entrada e imprima
 
-Fizz
+**Fizz**
 
 se o número for divisível por 3. Caso contrário, imprima o mesmo número que foi dado na entrada.
 
@@ -58,7 +58,7 @@ se o número for divisível por 3. Caso contrário, imprima o mesmo número que 
 
 Receba um número inteiro na entrada e imprima
 
-Buzz
+**Buzz**
 
 se o número for divisível por 5. Caso contrário, imprima o mesmo número que foi dado na entrada.
 
@@ -66,7 +66,7 @@ se o número for divisível por 5. Caso contrário, imprima o mesmo número que 
 
 Receba um número inteiro na entrada e imprima
 
-FizzBuzz
+**FizzBuzz**
 
 na saída se o número for divisível por 3 e por 5. Caso contrário, imprima o mesmo número que foi dado na entrada.
 
@@ -74,11 +74,11 @@ na saída se o número for divisível por 3 e por 5. Caso contrário, imprima o 
 
 Receba 3 números inteiros na entrada e imprima
 
-crescente
+**crescente**
 
 se eles forem dados em ordem crescente. Caso contrário, imprima
 
-não está em ordem crescente
+**não está em ordem crescente**
 
 # Exercício 08  (Fatorial)
 
@@ -90,12 +90,13 @@ Receba um número inteiro positivo na entrada e imprima os nn primeiros números
 
 Exemplo:
 
-Digite o valor de n: 5
-1
-3
-5
-7
-9
+    Digite o valor de n: 5
+
+    1
+    3
+    5
+    7
+    9  
 
 # Exercício 10 
 
@@ -103,9 +104,9 @@ Escreva um programa que receba um número inteiro na entrada, calcule e imprima 
 
 Exemplo:
 
-Digite um número inteiro: 123
+    Digite um número inteiro: 123
 
-6
+    6
 
 # Exercício 11 (Máximos)
 
@@ -124,7 +125,7 @@ Escreva a função maior_primo que recebe um número inteiro maior ou igual a 2 
 
 Escreva um programa que recebe como entradas (utilize a função input) dois números inteiros correspondentes à largura e à altura de um retângulo, respectivamente. O programa deve imprimir uma cadeia de caracteres que represente o retângulo informado com caracteres '#' na saída.
 
-#Exercício 15
+# Exercício 15
 
 Refaça o exercício 1 imprimindo os retângulos sem preenchimento, de forma que os caracteres que não estiverem na borda do retângulo sejam espaços.
 
@@ -166,13 +167,7 @@ Escreva a função n_primos que recebe como argumento um número inteiro maior o
 
 Dizemos que um número é uma hipotenusa de um triângulo inteiro se existe um triângulo retângulo com lados inteiros cuja hipotenusa é igual a esse número. Em outras palavras, nn é uma hipotenusa se existem números inteiros ii e jj tais que:
 
-n^2 = i^2 + j^2n 
-2
- =i 
-2
- +j 
-2
- 
+    n^2 = i^2 + j^2n 
 
 Escreva uma função soma_hipotenusas que receba como parâmetro um número inteiro positivo nn e devolva a soma de todos os inteiros entre 1 e nn que são comprimento da hipotenusa de algum triângulo retângulo com catetos inteiros.
 
