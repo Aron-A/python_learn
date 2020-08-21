@@ -8,7 +8,7 @@ Abaixo um exemplo de como deve ser a entrada e saída de dados do programa:
 
 Exemplo:
 
-Entrada de Dados:
+ Entrada de Dados:
 Digite o valor correspondente ao lado de um quadrado: 3
 
 Saída de Dados:
