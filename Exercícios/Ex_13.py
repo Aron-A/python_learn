@@ -1,6 +1,6 @@
 def vogcons(n):
 
-    strg = str(n)
+
     vogal = ["a" , "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 
     if n in vogal:
@@ -13,6 +13,7 @@ def vogcons(n):
 x = input("Digite uma letra: ")
 
 vogcons(x)
+
 
 
 

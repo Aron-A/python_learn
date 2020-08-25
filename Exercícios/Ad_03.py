@@ -21,7 +21,7 @@ def eprimo(k):
 
         
 
-def maior_primo(f):
+def n_primos(f):
     h = 3
     b = eprimo(f)
     if b:
@@ -31,12 +31,13 @@ def maior_primo(f):
             eprimo(h)
             h = h + 1
             
-    return max(lista)        
+    return len(lista)        
         
-x = int(input("Valor de x "))
+x = int(input("Digite um número inteiro "))
 
 lista = []
 
-a = maior_primo(x)
+a = n_primos(x)
 
-print(a)
+
+
